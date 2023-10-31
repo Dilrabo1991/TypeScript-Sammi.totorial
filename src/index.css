@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,700;1,400;1,500;1,600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+.body{
+  font-family: var( --font-family);
+  background-color:var(--primery)
+}
+:root{
+  --font-family: 'Sometype Mono', monospace;
+  --primery: rgb(18, 18, 58);
+  --border:hsl(0, 1%, 61%);
+  --black:#000;
+  --wihite:#fff;
+  --red:hsl(0, 63%, 59%);
+}
